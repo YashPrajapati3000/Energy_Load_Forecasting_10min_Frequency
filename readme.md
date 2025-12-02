@@ -42,23 +42,41 @@ The project demonstrates complete end-to-end time-series modeling: data cleaning
 ## 📁 3. Folder Structure
 Energy_Load_Forecasting_10min/
 │
+
 ├── Code/
+
 │   ├── EDA.R
+
 │   └── Power_Demand_Forecasting_Final.R
+
 │
+
 ├── Dataset/
+
 │   └── powerconsumption.csv
+
 │
+
 ├── Plots/
+
 │   └── All Plots
+
 │
+
 ├── Presentation/
+
 │   ├── Power_Presentation.pptx
+
 │   └── Power_Presentation.pdf
+
 │
+
 ├── Report/
+
 │   └── Final_Report.pdf
+
 │
+
 └── README.md
 
 ---
@@ -186,13 +204,18 @@ git clone https://github.com/YashPrajapati3000/Energy_Load_Forecasting_10min_Fre
 ```
 
 2. Open the R script:
+
 Energy_Load_Forecasting_10min/Code/final_model.R
 
 3. Make sure working directory is set:
+```bash
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+```
 
 4. Load the dataset:
+```bash
 df <- read.csv("../Datasets/powerconsumption.csv")
+```
 
 5. Run all sections in order:
 1. **Data loading**  
