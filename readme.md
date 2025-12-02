@@ -183,6 +183,7 @@ A full 15–20 page report containing:
 1. Clone the repository:
 ```bash
 git clone https://github.com/YashPrajapati3000/Energy_Load_Forecasting_10min_Frequency.git
+```
 
 2. Open the R script:
 Energy_Load_Forecasting_10min/Code/final_model.R
