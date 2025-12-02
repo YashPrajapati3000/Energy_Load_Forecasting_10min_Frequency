@@ -218,6 +218,7 @@ df <- read.csv("../Datasets/powerconsumption.csv")
 ```
 
 5. Run all sections in order:
+
 1. **Data loading**  
 2. **Time-series creation**  
 3. **MSTL**  
