@@ -43,23 +43,23 @@ The project demonstrates complete end-to-end time-series modeling: data cleaning
 Energy_Load_Forecasting_10min/
 │
 ├── Code/
-│ └── EDA.R
-│ └── Power_Demand_Forecasting_Final.R
+│   ├── EDA.R
+│   └── Power_Demand_Forecasting_Final.R
 │
 ├── Dataset/
-│ └── powerconsumption.csv
+│   └── powerconsumption.csv
 │
 ├── Plots/
-│ └── All Plots
+│   └── All Plots
 │
 ├── Presentation/
-│ ├── Power_Presentation.pptx
-│ └── Power_Presentation.pdf
+│   ├── Power_Presentation.pptx
+│   └── Power_Presentation.pdf
 │
 ├── Report/
-│ └── Final_Report.pdf
+│   └── Final_Report.pdf
 │
-└── readme.md
+└── README.md
 
 ---
 
